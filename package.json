@@ -1,1 +1,18 @@
-
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram pour accepter les demandes d'adhésion et envoyer des notifications",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",  
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Fadel",
+  "license": "ISC"
+}
